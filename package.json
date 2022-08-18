@@ -1,7 +1,7 @@
 {
-  "name": "ts-library-starter",
+  "name": "library-name",
   "version": "1.0.0",
-  "description": "A sensible starter for react typescript library",
+  "description": "<library-description>",
   "repository": "https://github.com/sahil143/ts-library-starter",
   "author": "Sahil Budhwar",
   "license": "MIT",
@@ -12,7 +12,7 @@
   "scripts": {
     "test": "jest",
     "install:app": "cd ./app && yarn install --no-lockfile",
-    "start": "cd ./app && yarn start",
+    "start:app": "cd ./app && yarn start",
     "build": "rm -rf dist && yarn run -T rollup -c",
     "lint": "eslint '**/*.{ts,tsx}'",
     "prettier": "prettier '**/*.{js,jsx,ts,tsx}' --check",
