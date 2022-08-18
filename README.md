@@ -1,5 +1,7 @@
 # library name
 
+This library is built with :heart: using React and Typescript.
+
 \<library-description> This is a starter kit for react typescript libraries.
 
 ### Install
@@ -31,6 +33,14 @@ Start parcel playground
 yarn start:app
 ```
 
+### Build
+
+```
+yarn build
+```
+
+[Rollup](https://rollupjs.org) outputs the files in `/dist`
+
 ### Tests
 
 ```
@@ -38,3 +48,14 @@ yarn test
 ```
 
 This library uses [Jest](https://jestjs.io/) and [testing-library](https://testing-library.com/docs/react-testing-library/intro/) for unit tests
+
+### Code Quality
+
+[Eslint](https://eslint.org/) and [Prettier](https://prettier.io/) is used to maintain the code quality
+
+```
+yarn lint
+yarn prettier
+```
+
+This library also uses husky and lint-staged to run linter and prettier pre commit

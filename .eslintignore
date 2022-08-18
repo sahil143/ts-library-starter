@@ -6,3 +6,6 @@ yarn-error.log*
 dist
 .husky
 .parcel-cache
+
+rollup.config.js
+jest.config.js
